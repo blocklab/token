@@ -1,0 +1,13 @@
+{
+  "name": "blocklab_token",
+  "version": "0.0.1",
+  "private": true,
+  "license": "MIT",
+  "devDependencies": {
+    "truffle": "^2.1.0"
+  },
+  "scripts": {
+    "prepare": "./node_modules/truffle/cli.js migrate",
+    "start": "./node_modules/truffle/cli.js serve"
+  }
+}
